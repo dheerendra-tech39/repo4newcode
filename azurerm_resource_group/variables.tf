@@ -1,0 +1,1 @@
+variable "resourve_groups" {}
