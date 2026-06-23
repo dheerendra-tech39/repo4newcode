@@ -6,6 +6,6 @@ jobs:
   test:
     runs-on: self-hosted
     steps: 
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
       - name: Test
         run: echo "Hello Dheerendra"
