@@ -6,6 +6,10 @@ jobs:
   test:
     runs-on: self-hosted
     steps: 
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
       - name: Test
-        run: echo "Hello Dheerendra"
+        run: echo "Hello Dheerendra Verma"
+        run: echo "I am from Gwalior"
+        run: echo "My job role is DevOps Engineer"
+
+
