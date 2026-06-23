@@ -1,0 +1,11 @@
+name: My First Pipeline
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps: 
+      - uses: actions/checkout@4
+      - name: Test
+        run: echo "Hello Dheerendra"
